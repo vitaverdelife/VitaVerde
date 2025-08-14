@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaVerde</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0fdf4;
+            color: #2e7d32;
+        }
+        header {
+            background-color: #43a047;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #66bb6a;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #388e3c;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #43a047;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VitaVerde</h1>
+        <p>Зелено, здравословно, вдъхновяващо</p>
+    </header>
+
+    <nav>
+        <a href="#about">За нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+
+    <section id="about">
+        <h2>За нас</h2>
+        <p>VitaVerde е мястото, където здравословният начин на живот среща природата. Ние вярваме в силата на зелените продукти и чистата енергия.</p>
+    </section>
+
+    <section id="services" style="background-color:#dcedc8;">
+        <h2>Услуги</h2>
+        <p>Предлагаме онлайн курсове за здравословно хранене, доставка на био продукти и консултации за зелен начин на живот.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Контакти</h2>
+        <p>Свържете се с нас на имейл: <a href="mailto:info@vitaverde.bg">info@vitaverde.bg</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 VitaVerde. Всички права запазени.
+    </footer>
+
+</body>
+</html>
