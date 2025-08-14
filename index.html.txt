@@ -35,6 +35,9 @@
             padding: 50px 20px;
             text-align: center;
         }
+        section:nth-child(even) {
+            background-color: #dcedc8;
+        }
         footer {
             background-color: #43a047;
             color: white;
@@ -45,10 +48,21 @@
             font-size: 48px;
             margin-bottom: 10px;
         }
+        h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
         p {
-            font-size: 20px;
+            font-size: 18px;
             max-width: 700px;
             margin: auto;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
         }
     </style>
 </head>
@@ -56,28 +70,46 @@
 
     <header>
         <h1>VitaVerde</h1>
-        <p>Зелено, здравословно, вдъхновяващо</p>
+        <p>Здравословни билки и природни продукти</p>
     </header>
 
     <nav>
+        <a href="#home">Начало</a>
+        <a href="#products">Продукти</a>
         <a href="#about">За нас</a>
-        <a href="#services">Услуги</a>
+        <a href="#policy">Условия и политика</a>
         <a href="#contact">Контакти</a>
     </nav>
 
-    <section id="about">
-        <h2>За нас</h2>
-        <p>VitaVerde е мястото, където здравословният начин на живот среща природата. Ние вярваме в силата на зелените продукти и чистата енергия.</p>
+    <section id="home">
+        <h2>Добре дошли в VitaVerde!</h2>
+        <p>Открийте силата на природата и здравословния живот с нашите билкови продукти.</p>
     </section>
 
-    <section id="services" style="background-color:#dcedc8;">
-        <h2>Услуги</h2>
-        <p>Предлагаме онлайн курсове за здравословно хранене, доставка на био продукти и консултации за зелен начин на живот.</p>
+    <section id="products">
+        <h2>Продукти</h2>
+        <ul>
+            <li>Билков чай за детокс</li>
+            <li>Етерични масла</li>
+            <li>Смес за укрепване на имунната система</li>
+            <li>Билкови капсули и добавки</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>За нас</h2>
+        <p>VitaVerde е вашият доверен партньор в здравословния начин на живот. Нашата мисия е да предоставяме чисти и ефективни природни продукти за цялото семейство.</p>
+    </section>
+
+    <section id="policy">
+        <h2>Условия и политика</h2>
+        <p>Моля, запознайте се с нашите Общи условия и Политика за поверителност. Ние се стремим да защитаваме вашите данни и да осигурим качествени услуги и продукти.</p>
     </section>
 
     <section id="contact">
         <h2>Контакти</h2>
         <p>Свържете се с нас на имейл: <a href="mailto:info@vitaverde.bg">info@vitaverde.bg</a></p>
+        <p>Телефон: +359 88 123 4567</p>
     </section>
 
     <footer>
